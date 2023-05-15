@@ -56,27 +56,22 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BNG Framework\Editor\ButtonEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\ClimbableEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\GrabPointEditor.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\PluginsEditor.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\InputBridgeEditor.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\VRIFGrabpointUpdaterEditor.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\GrabPointTriggerEditor.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoseEditor.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\IntegrationsEditor.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Editor\AutoPoserEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\ExplosiveEditor.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoserEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\GrabbableEditor.cs" />
-    <Compile Include="Assets\BNG Framework\Editor\ClimbableEditor.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Editor\AutoPoserEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\ButtonEditor.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoseSaveAs.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Editor\HandPoseEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\TrackedDeviceEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\VRIFGrabpointUpdaterEditor.cs" />
     <Compile Include="Assets\BNG Framework\Editor\LeverEditor.cs" />
-    <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\Editor\SampleMetadata.cs" />
-    <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\Editor\SampleStandaloneLoaderUI.cs" />
-    <Compile Include="Assets\Samples\XR Interaction Toolkit\2.3.1\Hands Interaction Demo\Editor\Scripts\HandsInteractionSampleProjectValidation.cs" />
-    <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\Editor\SampleBuildProcessor.cs" />
-    <Compile Include="Assets\Samples\XR Plugin Management\4.3.3\Example XR Management implementation\Editor\SampleSettingsEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\PluginsEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\GrabPointTriggerEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\InputBridgeEditor.cs" />
+    <Compile Include="Assets\BNG Framework\Editor\IntegrationsEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
