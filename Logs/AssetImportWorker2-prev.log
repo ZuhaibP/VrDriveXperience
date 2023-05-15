@@ -1,0 +1,359 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51250
+Successfully changed project path to: D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
+D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23576] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 2650155658 [EditorId] 2650155658 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23576] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 2650155658 [EditorId] 2650155658 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.51 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007990 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 85.97 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.598 seconds
+Domain Reload Profiling:
+	ReloadAssembly (599ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (412ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (85ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (256ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 78.18 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.267 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1268ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (119ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.44 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4089 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (344.2 KB). Loaded Objects now: 4552.
+Memory consumption went from 153.8 MB to 153.5 MB.
+Total: 4.639000 ms (FindLiveObjects: 0.463100 ms CreateObjectMapping: 0.159200 ms MarkObjects: 3.763200 ms  DeleteObjects: 0.252200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 478301.766502 seconds.
+  path: Assets/BNG Framework/Prefabs/Hammer.prefab
+  artifactKey: Guid(4f129b5556bf99748859cbb49fa5fdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Hammer.prefab using Guid(4f129b5556bf99748859cbb49fa5fdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269f06e111db4988e7692f9e2c38cda0') in 0.182485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/BNG Framework/Prefabs/Lever B.prefab
+  artifactKey: Guid(a2419f9845db03f479057114b6bbbe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Lever B.prefab using Guid(a2419f9845db03f479057114b6bbbe86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d98f4e3348bfcde40d0a4443e1ae6cf') in 0.036762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/BNG Framework/Prefabs/ExplodingBarrel.prefab
+  artifactKey: Guid(25b840c61060dd542a94a103f667c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/ExplodingBarrel.prefab using Guid(25b840c61060dd542a94a103f667c87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1fe23156eadf5a92e4d6f6d89f8ff2') in 0.050022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/BNG Framework/Prefabs/PistolAttachments Variant.prefab
+  artifactKey: Guid(bbdd2759d1d59714f9efcec989caaaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/PistolAttachments Variant.prefab using Guid(bbdd2759d1d59714f9efcec989caaaad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79110dc5be7c18b42969710b82b4176f') in 0.104934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/BNG Framework/Prefabs/Joystick.prefab
+  artifactKey: Guid(e4324f2703548f24eb2562d7b849cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Joystick.prefab using Guid(e4324f2703548f24eb2562d7b849cfed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a6e83c65944aa7436414d13c7261b9') in 0.052215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BNG Framework/Prefabs/Desk2.prefab
+  artifactKey: Guid(409c29609963914488169a846ec3ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Desk2.prefab using Guid(409c29609963914488169a846ec3ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05dc1c5297015a5825cd3be970d9f802') in 0.036203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/BNG Framework/Prefabs/TeleportDestination.prefab
+  artifactKey: Guid(745474d57ad4f6641b08c258fdbfcc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/TeleportDestination.prefab using Guid(745474d57ad4f6641b08c258fdbfcc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f206f8fe485678d0d787ed2884bf87') in 0.023334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/BNG Framework/Prefabs/Robot Kyle Ragdoll Projectile.prefab
+  artifactKey: Guid(26d95e36bb69d704ea748458869b9b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Robot Kyle Ragdoll Projectile.prefab using Guid(26d95e36bb69d704ea748458869b9b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d530f083df94398369c838db8f93b02') in 0.054100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/BNG Framework/Prefabs/Lever A.prefab
+  artifactKey: Guid(2c8749612dd1d9542aecb3bbb4aa6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Lever A.prefab using Guid(2c8749612dd1d9542aecb3bbb4aa6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133aa1d1658a9239dd018cadb4dacdb0') in 0.032376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BNG Framework/Prefabs/TextBlock.prefab
+  artifactKey: Guid(d1196da97cc726d48bb5c44c053d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/TextBlock.prefab using Guid(d1196da97cc726d48bb5c44c053d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0da2ce6cbb5fa41ea631796b2672de1') in 0.052378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/BNG Framework/Prefabs/EventSystem.prefab
+  artifactKey: Guid(d438cc23d9b8af241b1612661f3938b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/EventSystem.prefab using Guid(d438cc23d9b8af241b1612661f3938b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86d1539c21016e7fcc6ea3717f5bc0a') in 0.018369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BNG Framework/Prefabs/BlockYellow.prefab
+  artifactKey: Guid(0f50f6c994c01194195f0b739e15686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/BlockYellow.prefab using Guid(0f50f6c994c01194195f0b739e15686d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d7916974e5e4abb93d000e8279037c') in 0.026401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/BNG Framework/Prefabs/Ball.prefab
+  artifactKey: Guid(8b8746c815e84a54b800ff881a6de982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Ball.prefab using Guid(8b8746c815e84a54b800ff881a6de982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469bf8da7f6489fda3f41c5c71cd7950') in 0.020246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/BNG Framework/Prefabs/HandJet.prefab
+  artifactKey: Guid(0f9df8d02c9bafe49a092afcdf1f5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/HandJet.prefab using Guid(0f9df8d02c9bafe49a092afcdf1f5074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d05a0d1632bb7229a86a9254d7681eb') in 0.028143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/BNG Framework/Prefabs/JoystickVehicleControl.prefab
+  artifactKey: Guid(bab352ace9d991441b7bd020a9ad5bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/JoystickVehicleControl.prefab using Guid(bab352ace9d991441b7bd020a9ad5bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6119ac1c18907bb2eaba1e20789b42b9') in 0.029678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/BNG Framework/Prefabs/SlideDrawer.prefab
+  artifactKey: Guid(a26c3d0cae0a86144b7d8155ff0c08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/SlideDrawer.prefab using Guid(a26c3d0cae0a86144b7d8155ff0c08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a4f0699af77b8bdd7943798329ba85') in 0.022954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.938811 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.008254 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010122 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (370ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.78 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (311.0 KB). Loaded Objects now: 4581.
+Memory consumption went from 170.9 MB to 170.6 MB.
+Total: 3.057500 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.091000 ms MarkObjects: 2.516300 ms  DeleteObjects: 0.176400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 132.572169 seconds.
+  path: Assets/MyCarScript
+  artifactKey: Guid(a523298ad478bba4ea080d44913d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyCarScript using Guid(a523298ad478bba4ea080d44913d4b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2472001a700457d3832358d644ed65') in 0.015822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.418041 seconds.
+  path: Assets/MyCarScript/CarEnter.cs
+  artifactKey: Guid(f107cf9a5df9aa04f896a8ace66b0e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyCarScript/CarEnter.cs using Guid(f107cf9a5df9aa04f896a8ace66b0e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a34e73bd7119a3d9a8cb3089941b7e5') in 0.011487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1016.905428 seconds.
+  path: Assets/BNG Framework/Prefabs/Player
+  artifactKey: Guid(db43c09c852cbcd47821ae54b05e8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player using Guid(db43c09c852cbcd47821ae54b05e8d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b213bbedc853964f590ba3f26b3fad') in 0.008480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.142490 seconds.
+  path: Assets/BNG Framework/Prefabs/Player/XR Rig Advanced.prefab
+  artifactKey: Guid(4ac7df741a9c0a2418ec19477729ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Prefabs/Player/XR Rig Advanced.prefab using Guid(4ac7df741a9c0a2418ec19477729ee3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20957137dc46f9f903f28b9bb561363') in 0.473268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1393.236474 seconds.
+  path: Assets/MyCarScript/MyVRCarController.cs
+  artifactKey: Guid(13973f2230ce92342b507c291561b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyCarScript/MyVRCarController.cs using Guid(13973f2230ce92342b507c291561b1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e38b35856fea2d7f557f644f62e3d3') in 0.008649 seconds 
+AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.

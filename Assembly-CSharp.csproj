@@ -81,6 +81,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\LocomotionManager.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabPoint.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\SceneLoader.cs" />
+    <Compile Include="Assets\MyCarScript\ShiftSelect.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerGravity.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoCube.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoseBlender.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\Lever.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\IKDummy.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabAction.cs" />
+    <Compile Include="Assets\MyCarScript\CarEnter.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Waypoint.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserSword.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\Tooltip.cs" />
@@ -153,6 +155,7 @@
     <Compile Include="Assets\RCK 2.3\Skidmarks\WheelSkidmarks.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandCollision.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs" />
+    <Compile Include="Assets\MyCarScript\MyVRCarController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionFade.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableBezierLine.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandController.cs" />
@@ -174,6 +177,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZone.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableEvents.cs" />
+    <Compile Include="Assets\MyCarScript\CarExit.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\TimeController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterConstraint.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Grabbable.cs" />
@@ -977,6 +981,9 @@
     <Reference Include="Unity.XR.Management">
       <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.OpenXR">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
@@ -988,6 +995,9 @@
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
