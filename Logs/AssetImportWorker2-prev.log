@@ -1,0 +1,289 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50316
+Successfully changed project path to: D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
+D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23280] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 392399966 [EditorId] 392399966 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23280] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 392399966 [EditorId] 392399966 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 141.68 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.74 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010927 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 112.41 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (530ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (64ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013670 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 104.72 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <75633565436c42f0a6426b33f0132ade>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <75633565436c42f0a6426b33f0132ade>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <75633565436c42f0a6426b33f0132ade>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <11d97693183d4a6bb35c29ae7882c66b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1529ms)
+		BeginReloadAssembly (257ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (136ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (320ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 4124 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (344.5 KB). Loaded Objects now: 4592.
+Memory consumption went from 155.3 MB to 155.0 MB.
+Total: 6.273600 ms (FindLiveObjects: 0.445700 ms CreateObjectMapping: 0.433900 ms MarkObjects: 4.952800 ms  DeleteObjects: 0.436200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 277307.427866 seconds.
+  path: Assets/ac-lotus-evora-s/textures/INT_Speakers_GRID.png
+  artifactKey: Guid(ca1eb3bb937c80c418837edad394657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/INT_Speakers_GRID.png using Guid(ca1eb3bb937c80c418837edad394657f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb158b5f6f786043b7d489610a73166') in 0.098630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ac-lotus-evora-s/textures/INT_Carbon_FINE.png
+  artifactKey: Guid(3baf8902303088442ae5348a7c61f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/INT_Carbon_FINE.png using Guid(3baf8902303088442ae5348a7c61f8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cafadff4521f762cb531ebeaba948bf') in 0.024784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Velluto.png
+  artifactKey: Guid(bf67414a5f44d014da408067dd66e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Velluto.png using Guid(bf67414a5f44d014da408067dd66e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa8b464c517e2f4943370d2af14a8ce') in 0.029921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ac-lotus-evora-s/textures/INT_Grigio.png
+  artifactKey: Guid(9d90ce5db452a2e4db70e17ab5fc51cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/INT_Grigio.png using Guid(9d90ce5db452a2e4db70e17ab5fc51cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c674b871d074592913462c12757ce17') in 0.015871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Limiter_LED.png
+  artifactKey: Guid(db26ace46eb6cda469465d0dfe07858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Limiter_LED.png using Guid(db26ace46eb6cda469465d0dfe07858f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acedc3e1a6d8594f50f6f4d74e0ffc81') in 0.017514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Pedali_NM.png
+  artifactKey: Guid(0b394cbebb12dd543a558b8a0738a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Pedali_NM.png using Guid(0b394cbebb12dd543a558b8a0738a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff52a950ddea0cf492a14e4aeac7d27f') in 0.055473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ac-lotus-evora-s/textures/red.png
+  artifactKey: Guid(7066a75695428b44e99731ac378aeacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/red.png using Guid(7066a75695428b44e99731ac378aeacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec173aa1adf87031cf5c13330b7a5a5a') in 0.016747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ac-lotus-evora-s/textures/TEssuto_2.png
+  artifactKey: Guid(f164683c870d02742b99abb901fa057d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/TEssuto_2.png using Guid(f164683c870d02742b99abb901fa057d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28fb65c971912c274bc5f6f69df3c7f8') in 0.016271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ac-lotus-evora-s/textures/INT_Grigio_Scuro.png
+  artifactKey: Guid(70ef6fd18160e424195bc61cba66127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/INT_Grigio_Scuro.png using Guid(70ef6fd18160e424195bc61cba66127e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99eed4265f12ed1ba70d85bfbcb21989') in 0.017605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Velluto_NM.png
+  artifactKey: Guid(d2a604e491e6a2b4896d40d6f093ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Velluto_NM.png using Guid(d2a604e491e6a2b4896d40d6f093ca5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce12d202bbbf360d3d72e46a1ed233a') in 0.023430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.575386 seconds.
+  path: Assets/ac-lotus-evora-s/textures
+  artifactKey: Guid(3660a585d30f2ec4aa089e318fb5a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures using Guid(3660a585d30f2ec4aa089e318fb5a009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6b47248e7bf7e839edaa62268fc03d') in 0.008532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098730 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Badges_D.png
+  artifactKey: Guid(a589a5df9dcc7c4439fd367f5ec2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Badges_D.png using Guid(a589a5df9dcc7c4439fd367f5ec2093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db23d4b89e73c3c12ef523e9339dc2e8') in 0.027378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Brake_Disk_N.png
+  artifactKey: Guid(1a78f2fb7dfab8f4f94c69462136eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Brake_Disk_N.png using Guid(1a78f2fb7dfab8f4f94c69462136eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8afad626ff860fa55ba6f36f20505c') in 0.017169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Cockpit_Belt_NM.png
+  artifactKey: Guid(7313ca03485452f4f8111b96924ba543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Cockpit_Belt_NM.png using Guid(7313ca03485452f4f8111b96924ba543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eae7a828f430086d4842b89752a3ed') in 0.016161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Details_D.png
+  artifactKey: Guid(cbeaf2e597e073d49b7bc4af5c3cf916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Details_D.png using Guid(cbeaf2e597e073d49b7bc4af5c3cf916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7808d2af4a0047cbb7bc61d988c2c7b0') in 0.014865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Cockpit_Belt.png
+  artifactKey: Guid(59fb25b78a929404caa9af5f81206ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Cockpit_Belt.png using Guid(59fb25b78a929404caa9af5f81206ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11b70acbdc753b2af9792ba5f8af0da') in 0.019755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ac-lotus-evora-s/textures/Decals_LOGHI_color.png
+  artifactKey: Guid(71c6b37d1f00bfb42b811b710254a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ac-lotus-evora-s/textures/Decals_LOGHI_color.png using Guid(71c6b37d1f00bfb42b811b710254a901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee8153706e0d7b7ae74146c388d0935') in 0.013902 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
