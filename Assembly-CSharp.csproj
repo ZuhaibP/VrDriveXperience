@@ -244,6 +244,7 @@
     <None Include="Assets\RCK 2.3\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
     <None Include="Assets\BNG Framework\Materials\MobileColorShader.shader" />
     <None Include="Assets\RCK 2.3\Skidmarks\Skidmarks Essentials\Skidmarks.shader" />
+    <None Include="Assets\POLYGON city pack\Read_me.txt" />
     <None Include="Assets\BNG Framework\Models\Hands\OculusHands\LICENSE.txt" />
     <None Include="Assets\BNG Framework\LICENSE.txt" />
     <None Include="Assets\BNG Framework\Third-Party Notices.txt" />
