@@ -221,21 +221,37 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
+    <Compile Include="Assets\Unity-Speedometer-master\Speedometer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\BNG Framework\Integrations\Curved UI\Instructions.txt" />
     <None Include="Assets\BNG Framework\Materials\ColumnGlowShaderLicense.txt" />
     <None Include="Assets\BNG Framework\HandPoser\Third-Party Notices.txt" />
     <None Include="Assets\RCK 2.3\Shaders\ReflectionBlurFresnel.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
     <None Include="Assets\BNG Framework\Textures\particleTextures.txt" />
     <None Include="Assets\BNG Framework\Fonts\license.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\BNG Framework\Integrations\Emerald AI\Instructions.txt" />
     <None Include="Assets\BNG Framework\Materials\ColumnGlow.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\BNG Framework\Integrations\Oculus Integration\Readme.txt" />
     <None Include="Assets\RCK 2.3\Standard Assets\Projectors\Guidelines.txt" />
     <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\BNG Framework\Integrations\Invector\Instructions.txt" />
     <None Include="Assets\RCK 2.3\Standard Assets\Projectors\Sources\Shaders\Projector Light.shader" />
     <None Include="Assets\BNG Framework\Integrations\FinalIK\Readme.txt" />
@@ -244,14 +260,20 @@
     <None Include="Assets\BNG Framework\Sounds\license.txt" />
     <None Include="Assets\BNG Framework\Integrations\SteamVR\Readme.txt" />
     <None Include="Assets\RCK 2.3\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\BNG Framework\Materials\MobileColorShader.shader" />
     <None Include="Assets\RCK 2.3\Skidmarks\Skidmarks Essentials\Skidmarks.shader" />
     <None Include="Assets\BNG Framework\Models\Hands\OculusHands\LICENSE.txt" />
     <None Include="Assets\BNG Framework\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\BNG Framework\Third-Party Notices.txt" />
     <None Include="Assets\BNG Framework\HandPoser\Documentation.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\BNG Framework\Documentation\Documentation.txt" />
     <None Include="Assets\BNG Framework\Integrations\WebXR\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -536,6 +536,7 @@
 "Assets/RCK 2.3/Scripts/VehicleDamage.cs"
 "Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks.cs"
 "Assets/RCK 2.3/Skidmarks/WheelSkidmarks.cs"
+"Assets/Unity-Speedometer-master/Speedometer.cs"
 -langversion:9.0
 
 /deterministic

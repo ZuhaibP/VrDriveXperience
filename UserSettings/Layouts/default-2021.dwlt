@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 29
+  controlID: 109
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 407.19995
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 110
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 111
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/KajamansRoads/Free/Prefabs
+    - Assets/RCK 2.3/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/KajamansRoads/Free/Prefabs
+  - Assets/RCK 2.3/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ecaf0000
-    m_LastClickedID: 45036
-    m_ExpandedIDs: 000000000cac0000d2af0000d8af0000deaf000080b0000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 403}
+    m_SelectedIDs: 56b70000
+    m_LastClickedID: 46934
+    m_ExpandedIDs: 0000000012ac00001cac00001eac000026ac00005cac000062b700009eb7000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000cac0000
+    m_ExpandedIDs: 0000000012ac0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000
+    m_ExpandedInstanceIDs: c6230000fcc60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 5}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -447,11 +447,11 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 1513.6001
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2ac20000
-      m_LastClickedID: 49706
-      m_ExpandedIDs: b894ffffaebfffff26fbffff04c0000026c400003cc400005ec80000cec800009acb0000b6cb0000
+      scrollPos: {x: 0, y: 1569.2}
+      m_SelectedIDs: f4610000
+      m_LastClickedID: 25076
+      m_ExpandedIDs: d495ffff9eb4ffffe8b7fffff0c4ffff2cfbffff9a610000f0610000f4610000e4620000ee6200001063000042650000e8660000ec6600001c670000c6680000cc6800001e69000020690000606a00007e6a0000b66c0000ba6d0000d26e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -613,9 +613,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: -112, y: 25.599998}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       id: Orientation
       index: 0
       layout: 4
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -163.06395, y: 3.6504478, z: 1037.6232}
+    m_Target: {x: -159.83594, y: 2.0475059, z: 1035.909}
     speed: 2
-    m_Value: {x: -163.06395, y: 3.6504478, z: 1037.6232}
+    m_Value: {x: -159.83594, y: 2.0475059, z: 1035.909}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -821,13 +821,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.2301323, y: 0.7268985, z: -0.2885773, w: -0.5792755}
+    m_Target: {x: 0.17487238, y: 0.2997446, z: -0.056537922, w: 0.9362968}
     speed: 2
-    m_Value: {x: -0.23011167, y: 0.72683334, z: -0.28855142, w: -0.5792236}
+    m_Value: {x: 0.1748483, y: 0.29970333, z: -0.05653014, w: 0.9361679}
   m_Size:
-    m_Target: 5.4571724
+    m_Target: 4.622513
     speed: 2
-    m_Value: 5.4571724
+    m_Value: 4.622513
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -925,7 +925,7 @@ MonoBehaviour:
       width: 710.00006
       height: 354.8
     m_Scale: {x: 2.6878324, y: 2.6878326}
-    m_Translation: {x: 295.092, y: 178.6547}
+    m_Translation: {x: 295.092, y: 178.65468}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -933,7 +933,7 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -109.7881
-      y: -66.46794
+      y: -66.46793
       width: 264.1534
       height: 132.00226
     m_MinimalGUI: 1
