@@ -1,0 +1,11 @@
+Model Information:
+* title:	Speed Limit Sign
+* source:	https://sketchfab.com/3d-models/speed-limit-sign-22f0c1d3e4dd4a489270ce69810feaeb
+* author:	Kanan63 (https://sketchfab.com/Kanan63)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Speed Limit Sign" (https://sketchfab.com/3d-models/speed-limit-sign-22f0c1d3e4dd4a489270ce69810feaeb) by Kanan63 (https://sketchfab.com/Kanan63) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
