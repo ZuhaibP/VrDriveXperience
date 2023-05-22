@@ -131,6 +131,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\DetachableLimb.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SampleHandController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabPointTrigger.cs" />
+    <Compile Include="Assets\Unity-Speedometer-master\Speedometer.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\MovingPlatform.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BowArm.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\SlidingDoorMover.cs" />
@@ -221,7 +222,6 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
-    <Compile Include="Assets\Unity-Speedometer-master\Speedometer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />

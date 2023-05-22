@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 109
+  controlID: 22
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 110
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 111
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/RCK 2.3/Scripts
+    - Assets/illusionloop.com/road props/Prefabs - Standard
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/RCK 2.3/Scripts
+  - Assets/illusionloop.com/road props/Prefabs - Standard
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 403}
-    m_SelectedIDs: 56b70000
-    m_LastClickedID: 46934
-    m_ExpandedIDs: 0000000012ac00001cac00001eac000026ac00005cac000062b700009eb7000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 24040100
+    m_LastClickedID: 66596
+    m_ExpandedIDs: 00000000eeae00000eb0000016b00000b0b00000f40301002a040100b0040100c404010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012ac0000
+    m_ExpandedIDs: 00000000eeae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 1026
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1569.2}
-      m_SelectedIDs: f4610000
-      m_LastClickedID: 25076
-      m_ExpandedIDs: d495ffff9eb4ffffe8b7fffff0c4ffff2cfbffff9a610000f0610000f4610000e4620000ee6200001063000042650000e8660000ec6600001c670000c6680000cc6800001e69000020690000606a00007e6a0000b66c0000ba6d0000d26e0000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 96b1ffff
+      m_LastClickedID: -20074
+      m_ExpandedIDs: 66b2ffffaab7ffff64f9ffff90640000aa650000bc670000846900002e6a0000446a0000c26a0000fc6c0000c86d0000686e0000d86e0000a6710000c2710000d0710000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -506,7 +506,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 4}
+        m_ClientGUIView: {fileID: 3}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -772,9 +772,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -159.83594, y: 2.0475059, z: 1035.909}
+    m_Target: {x: -159.77112, y: 1.5690012, z: 1039.6453}
     speed: 2
-    m_Value: {x: -159.83594, y: 2.0475059, z: 1035.909}
+    m_Value: {x: -159.77112, y: 1.5690012, z: 1039.6453}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -821,13 +821,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.17487238, y: 0.2997446, z: -0.056537922, w: 0.9362968}
+    m_Target: {x: 0.114048906, y: -0.02746129, z: 0.0025552984, w: 0.99323136}
     speed: 2
-    m_Value: {x: 0.1748483, y: 0.29970333, z: -0.05653014, w: 0.9361679}
+    m_Value: {x: 0.11552267, y: -0.027453633, z: 0.0025961513, w: 0.99292195}
   m_Size:
-    m_Target: 4.622513
+    m_Target: 1.8873789
     speed: 2
-    m_Value: 4.622513
+    m_Value: 1.8873789
   m_Ortho:
     m_Target: 0
     speed: 2
