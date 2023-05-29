@@ -22554,6 +22554,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3612520900912226916, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_Size.y
+      value: 0.20681381
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612520900912226916, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_Size.z
+      value: 4.649126
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612520900912226916, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_Center.x
+      value: 0.06437409
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612520900912226916, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_Center.y
+      value: -0.85551983
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612520900912226916, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_Center.z
+      value: 0.28447688
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612520901037549175, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3612520901260579217, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
       propertyPath: leftHandModel
       value: 
@@ -22566,6 +22590,10 @@ PrefabInstance:
       propertyPath: playerController
       value: 
       objectReference: {fileID: 1426710961}
+    - target: {fileID: 3612520901827517525, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3612520902201845733, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
       propertyPath: xrRig
       value: 
@@ -22586,6 +22614,14 @@ PrefabInstance:
       propertyPath: playerController
       value: 
       objectReference: {fileID: 1426710961}
+    - target: {fileID: 3612520902255116120, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3612520902437063672, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4011076133116376423, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
       propertyPath: m_Name
       value: lotus_evora_s.c4d
@@ -22626,6 +22662,10 @@ PrefabInstance:
       propertyPath: carSetting.cameraSwitchView.Array.data[2]
       value: 
       objectReference: {fileID: 110925257}
+    - target: {fileID: 4387039099605921744, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
+      propertyPath: carSetting.hitGround.Array.data[0].grounded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4387039099605921745, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
       propertyPath: leftGrabber
       value: 
@@ -22678,7 +22718,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3612520900912226917, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f6c989c68a0bad744ae7b54b90d4c1b6, type: 3}
 --- !u!1 &3617724434623176202
 GameObject:
