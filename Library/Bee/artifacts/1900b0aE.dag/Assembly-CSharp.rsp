@@ -536,6 +536,8 @@
 "Assets/RCK 2.3/Scripts/VehicleDamage.cs"
 "Assets/RCK 2.3/Skidmarks/Skidmarks Essentials/Skidmarks.cs"
 "Assets/RCK 2.3/Skidmarks/WheelSkidmarks.cs"
+"Assets/Script/Key.cs"
+"Assets/Script/PlayerInventory.cs"
 "Assets/Unity-Speedometer-master/Speedometer.cs"
 -langversion:9.0
 
