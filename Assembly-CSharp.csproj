@@ -76,6 +76,7 @@
     <Compile Include="Assets\Script\ExitButtonHandler.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserPointer.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\VelocityTracker.cs" />
+    <Compile Include="Assets\Script\InstructionStart.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\UITrigger.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\Damageable.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LiquidWobble.cs" />
@@ -92,7 +93,6 @@
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\WeaponSlide.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\VehicleController.cs" />
     <Compile Include="Assets\Script\ButtonVR.cs" />
-    <Compile Include="Assets\Script\InstructionButtonHandler.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\BoneMapping.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboard.cs" />
@@ -231,7 +231,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
-    <Compile Include="Assets\Script\InstructionPanel.cs" />
+    <Compile Include="Assets\Script\GearInstruction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
