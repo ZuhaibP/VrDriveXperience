@@ -60,6 +60,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboardKey.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\TrackedDevice.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZoneScale.cs" />
+    <Compile Include="Assets\Script\StartButton.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\AutoGrabGrabbable.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ScreenFader.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ArrowGrabArea.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\GrappleShot.cs" />
+    <Compile Include="Assets\Script\ExitButtonHandler.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserPointer.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\VelocityTracker.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\UITrigger.cs" />
@@ -89,6 +91,8 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\DoorHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\WeaponSlide.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\VehicleController.cs" />
+    <Compile Include="Assets\Script\ButtonVR.cs" />
+    <Compile Include="Assets\Script\InstructionButtonHandler.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\BoneMapping.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboard.cs" />
@@ -154,6 +158,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\DrawerSound.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\VRUtils.cs" />
+    <Compile Include="Assets\Script\CarStartButtonHandler.cs" />
     <Compile Include="Assets\RCK 2.3\Skidmarks\WheelSkidmarks.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandCollision.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs" />
@@ -202,6 +207,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Components\LineToTransform.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\RaycastWeapon.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\AmmoDisplay.cs" />
+    <Compile Include="Assets\Script\MainMenuButtonHandler.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\FollowRigidbody.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\MoveToWaypoint.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPose.cs" />
@@ -225,6 +231,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
+    <Compile Include="Assets\Script\InstructionPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
@@ -1054,9 +1061,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.csproj">
+      <Project>{8FF7EA17-7461-93DE-BAF3-A4B97BC18611}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj">
+      <Project>{493D910F-289D-2AEF-1690-FFFB9F43DA69}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.Hands.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="BNGHandPoseID.csproj">
       <Project>{F7420977-6A35-C654-00A2-A23B1D1B2A14}</Project>
       <Name>BNGHandPoseID</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
+      <Project>{211CB4F3-3446-DA72-7705-EFFAC04F9F81}</Project>
+      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.XR.Management.Samples.Editor.csproj">
       <Project>{68B82B54-358C-7D20-C473-24BFDF25404D}</Project>
@@ -1065,10 +1084,6 @@
     <ProjectReference Include="Unity.XR.Management.Samples.csproj">
       <Project>{D6B1005D-D585-48C7-800A-317ACD982EC2}</Project>
       <Name>Unity.XR.Management.Samples</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj">
-      <Project>{211CB4F3-3446-DA72-7705-EFFAC04F9F81}</Project>
-      <Name>Unity.XR.Interaction.Toolkit.Samples.StarterAssets</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

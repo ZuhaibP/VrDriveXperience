@@ -8,6 +8,9 @@ TagManager:
   - Grass
   - Street
   - PlayerInventory
+  - FingerCollider
+  - Finger
+  - Hand
   layers:
   - Default
   - TransparentFX
@@ -15,8 +18,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Hands
+  - Interactive
   - 
   - 
   - 
