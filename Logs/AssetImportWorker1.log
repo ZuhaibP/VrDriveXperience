@@ -15,7 +15,7 @@ D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55165
+50186
 Successfully changed project path to: D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
 D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28900] Host "[IP] 172.18.38.121 [Port] 0 [Flags] 2 [Guid] 3649974542 [EditorId] 3649974542 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9656] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 788946463 [EditorId] 788946463 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28900] Host "[IP] 172.18.38.121 [Port] 0 [Flags] 2 [Guid] 3649974542 [EditorId] 3649974542 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9656] Host "[IP] 192.168.1.153 [Port] 0 [Flags] 2 [Guid] 788946463 [EditorId] 788946463 [Version] 1048832 [Id] WindowsEditor(7,Zuhaib) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 112.27 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.74 ms.
+Refreshing native plugins compatible for Editor in 112.29 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.79 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR/Assets
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007953 seconds.
+Registered in 0.012040 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 94.58 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 87.25 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.633 seconds
+- Completed reload, in  0.707 seconds
 Domain Reload Profiling:
-	ReloadAssembly (633ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (708ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (453ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (100ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (58ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
+				RefreshPlugins (88ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (88ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012586 seconds.
+Registered in 0.012667 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 96.59 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 93.91 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Hyper Island\Projects\Unity\DrivingLessonGame\CarDrivingLessonInVR\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
@@ -132,43 +132,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.477 seconds
+- Completed reload, in  1.271 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1478ms)
-		BeginReloadAssembly (222ms)
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (234ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (124ms)
-		EndReloadAssembly (1149ms)
+			CreateAndSetChildDomain (127ms)
+		EndReloadAssembly (920ms)
 			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (243ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (618ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (488ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (97ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (354ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Unloading 4140 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 56 unused Assets / (344.8 KB). Loaded Objects now: 4612.
 Memory consumption went from 159.4 MB to 159.1 MB.
-Total: 4.699600 ms (FindLiveObjects: 0.459700 ms CreateObjectMapping: 0.376100 ms MarkObjects: 3.597300 ms  DeleteObjects: 0.265200 ms)
+Total: 4.864300 ms (FindLiveObjects: 0.420400 ms CreateObjectMapping: 0.144100 ms MarkObjects: 3.960200 ms  DeleteObjects: 0.336800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -183,175 +183,41 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 168730.648887 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Lamp Orange.prefab
-  artifactKey: Guid(f1c71524b194ae54188c385260d5989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Lamp Orange.prefab using Guid(f1c71524b194ae54188c385260d5989b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a4b2d588bea98d2af5a6339c7c8d74') in 0.260304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Barrier Metal.prefab
-  artifactKey: Guid(fe337cb383a88824e84eb3aa64df90aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Barrier Metal.prefab using Guid(fe337cb383a88824e84eb3aa64df90aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5efd4c7fa88be6eb4a438f378524b9') in 0.110654 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Fence.prefab
-  artifactKey: Guid(418ee091cafdbb245a2cf2b8286cc39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Fence.prefab using Guid(418ee091cafdbb245a2cf2b8286cc39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62d68f39b96df3ed6389729e2572d5f') in 0.142112 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Barrier Heavy.prefab
-  artifactKey: Guid(8ebf2155e10a4f14ab835414d879b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Barrier Heavy.prefab using Guid(8ebf2155e10a4f14ab835414d879b666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af81d5331142a90460485c2e1088dd74') in 0.061113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/illusionloop.com
-  artifactKey: Guid(046c0c916db94a2419830ad45925a9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com using Guid(046c0c916db94a2419830ad45925a9f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a367a5126ea9d91eb0619cc1cffb303') in 0.012990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Lamp Yellow.prefab
-  artifactKey: Guid(9a934dfdc471c5b468799e39e6c54ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Lamp Yellow.prefab using Guid(9a934dfdc471c5b468799e39e6c54ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa7ebde9c2558d0b42466cf0fe2e21f') in 0.054302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile/Fence.prefab
-  artifactKey: Guid(6e39b733a9d84744f8ce0a261bea773d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile/Fence.prefab using Guid(6e39b733a9d84744f8ce0a261bea773d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa34768dbe63e177f33224ac19a7805') in 0.110448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Rubber Block.prefab
-  artifactKey: Guid(6a977817eba76c74b83ec4452f26f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Rubber Block.prefab using Guid(6a977817eba76c74b83ec4452f26f404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd66bb0bc3ed630780cbb7b72651b7e') in 0.056483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile/Barrier Heavy.prefab
-  artifactKey: Guid(e74cc5dcccf056846b28e67dac84038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile/Barrier Heavy.prefab using Guid(e74cc5dcccf056846b28e67dac84038e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03d8746de101b4cb3cb1a15b14abbe7') in 0.047614 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Road Cone.prefab
-  artifactKey: Guid(7ed407e0aeced17448a2a8beade4d639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Road Cone.prefab using Guid(7ed407e0aeced17448a2a8beade4d639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73365a6bac3a74b0c4e836a43b03aef3') in 0.060782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/illusionloop.com/road props
-  artifactKey: Guid(5da89583f93dbf84fae0d7fb5eb6934f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props using Guid(5da89583f93dbf84fae0d7fb5eb6934f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c62eeff8485e465370205ffe8bdf619') in 0.011171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Tire.prefab
-  artifactKey: Guid(2dd8e9b2447271c4f964eed3dd9a37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Tire.prefab using Guid(2dd8e9b2447271c4f964eed3dd9a37aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8463d23aaa12e34b2daed287bca6a24d') in 0.067956 seconds 
+  Time since last request: 53082.723025 seconds.
+  path: Assets/BNG Framework/Models/BNG_Attack_Stick.fbx
+  artifactKey: Guid(68704c3247d1e4b41a01d55318d18e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Attack_Stick.fbx using Guid(68704c3247d1e4b41a01d55318d18e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ef9f18a8334640f40a2e5d6e5ab425') in 0.262764 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile/Bollard.prefab
-  artifactKey: Guid(a9e65c6e583d9244099eafc6d8e2b2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile/Bollard.prefab using Guid(a9e65c6e583d9244099eafc6d8e2b2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e4381515fdadca59bc974c470ade92') in 0.049016 seconds 
+  path: Assets/BNG Framework/Models/BNG_Door_Wood_Slide.fbx
+  artifactKey: Guid(37c9158263a1e1e4da11ed32c08bee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Door_Wood_Slide.fbx using Guid(37c9158263a1e1e4da11ed32c08bee7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b8fa693d1119c8503c5e67a647cc05') in 0.145252 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile
-  artifactKey: Guid(f9107754a116e644ebb25041ed682a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile using Guid(f9107754a116e644ebb25041ed682a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419e308c857c9a1f276c32842700945e') in 0.011345 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/BNG Framework/Models/Crowbar.fbx
+  artifactKey: Guid(3d3080f03ac0dcd4494b19283fbb0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/Crowbar.fbx using Guid(3d3080f03ac0dcd4494b19283fbb0744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d665f9c091fb5a0c1a675d0aa5d18a') in 0.046215 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile/Lid.prefab
-  artifactKey: Guid(527fe760d050d9a48abccc1b00168730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile/Lid.prefab using Guid(527fe760d050d9a48abccc1b00168730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6e9b24be808e08fe2f2ea9f82e5d32') in 0.066600 seconds 
+  Time since last request: 0.000020 seconds.
+  path: Assets/BNG Framework/Models/BNG_Bow.fbx
+  artifactKey: Guid(47f266b2147c691429f4f84126899780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Bow.fbx using Guid(47f266b2147c691429f4f84126899780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3250673d2a81dcb107582cb866ea09cd') in 0.122774 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile/Water Barrel.prefab
-  artifactKey: Guid(69ab91bbdec462a41a8aaacf3ec0289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile/Water Barrel.prefab using Guid(69ab91bbdec462a41a8aaacf3ec0289b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bf732bee690cf723d498eaa6cc0a1d') in 0.053878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Mobile/Rubber Stand.prefab
-  artifactKey: Guid(bf1f2c799327053438f9ae52c4f2c522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Mobile/Rubber Stand.prefab using Guid(bf1f2c799327053438f9ae52c4f2c522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7580c2849f35539d6904eff76161ac9') in 0.059615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/illusionloop.com/road props/Prefabs - Standard/Lid.prefab
-  artifactKey: Guid(faa57e92831570046a225f6d7d8708ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/illusionloop.com/road props/Prefabs - Standard/Lid.prefab using Guid(faa57e92831570046a225f6d7d8708ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a32106a8ef6919e1ce65e77aaae7e6') in 0.050037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.635794 seconds.
-  path: Assets/KajamansRoads/Materials/2RoadMat.mat
-  artifactKey: Guid(fce506d6213fc8645809d972536683b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KajamansRoads/Materials/2RoadMat.mat using Guid(fce506d6213fc8645809d972536683b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7678aafe3430a16ab2dbcfe50df14ec1') in 0.067637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/KajamansRoads/Materials/PineMat.mat
-  artifactKey: Guid(6900649d937cbd64584262b080771b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KajamansRoads/Materials/PineMat.mat using Guid(6900649d937cbd64584262b080771b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b9d50279d29ea4c2e11d161ec01597') in 0.038705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/KajamansRoads/Materials/GuardRailMob.mat
-  artifactKey: Guid(d07e65a7ea4251342bccc1ac50e4f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KajamansRoads/Materials/GuardRailMob.mat using Guid(d07e65a7ea4251342bccc1ac50e4f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abbeaf500929d9f15d88cf5b763bdb8a') in 0.032026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KajamansRoads/Materials/4RoadMat.mat
-  artifactKey: Guid(a56ecb4b0075cf0438f4253f983e3286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KajamansRoads/Materials/4RoadMat.mat using Guid(a56ecb4b0075cf0438f4253f983e3286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195dbb0df2f48bfdbde088c7fa3cbfe8') in 0.049252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/KajamansRoads/Materials/DirtRoadMob.mat
-  artifactKey: Guid(bb1c5d5e8f23ff14c9a32795bfea3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/KajamansRoads/Materials/DirtRoadMob.mat using Guid(bb1c5d5e8f23ff14c9a32795bfea3a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f876ac15dd1ec9492497b5ed2a9189') in 0.027902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.422981 seconds.
-  path: Assets/Road props for games/Prefabs/BarrierFence_L.prefab
-  artifactKey: Guid(7a403819ac3e2284bada563d98651552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road props for games/Prefabs/BarrierFence_L.prefab using Guid(7a403819ac3e2284bada563d98651552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2406ad3be24c8b96a3b000ac35f827a3') in 0.024696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Road props for games/Prefabs/Benche.prefab
-  artifactKey: Guid(f0555a17cdff7dc43ab632954479231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road props for games/Prefabs/Benche.prefab using Guid(f0555a17cdff7dc43ab632954479231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09668be2af747e1cdfb432e258f0e17c') in 0.020451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Road props for games/Prefabs/Road_bumper.prefab
-  artifactKey: Guid(99ea5c30074df6049a24cf3e32d67aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road props for games/Prefabs/Road_bumper.prefab using Guid(99ea5c30074df6049a24cf3e32d67aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc48383b4c5870086eab2cac4107fa0') in 0.017586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Road props for games/Prefabs/Road_slab.prefab
-  artifactKey: Guid(17321fdaded5a574896ac07196a3d9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road props for games/Prefabs/Road_slab.prefab using Guid(17321fdaded5a574896ac07196a3d9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bedfdffae5a3d014091f3662b549875') in 0.019994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Road props for games/Prefabs/SpeedBump_2.prefab
-  artifactKey: Guid(c603bc22da7616940a7335d202551fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road props for games/Prefabs/SpeedBump_2.prefab using Guid(c603bc22da7616940a7335d202551fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08da844763445f214a86186781c1c33c') in 0.020237 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/BNG Framework/Models
+  artifactKey: Guid(04daf89b117ad5c429df24f8342541c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models using Guid(04daf89b117ad5c429df24f8342541c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816bad3c2d4fb715873000b62f8a65c5') in 0.012412 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Road props for games/Prefabs/Urn_2.prefab
-  artifactKey: Guid(ff3d08ef1ec24f549906bda80d3f7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road props for games/Prefabs/Urn_2.prefab using Guid(ff3d08ef1ec24f549906bda80d3f7a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ddaac249b300b11d15d3c565ec52b0') in 0.025292 seconds 
+  path: Assets/BNG Framework/Models/BNG_Buttons.fbx
+  artifactKey: Guid(5a7d15da9040a6b43b2b2e7f08ac44f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BNG Framework/Models/BNG_Buttons.fbx using Guid(5a7d15da9040a6b43b2b2e7f08ac44f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8439529b779085778323128ea3b975f5') in 0.203844 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

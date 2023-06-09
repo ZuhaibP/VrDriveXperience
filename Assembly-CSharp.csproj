@@ -224,6 +224,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
+    <Compile Include="Assets\Script\StartButtonHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />

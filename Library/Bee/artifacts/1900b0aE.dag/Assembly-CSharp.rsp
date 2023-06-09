@@ -329,6 +329,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/BNGHandPoseID.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Mathematics.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Rider.Editor.ref.dll"
@@ -353,6 +355,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.CoreUtils.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Interaction.Toolkit.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Interaction.Toolkit.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.XR.Management.Samples.Editor.ref.dll"
@@ -538,6 +544,7 @@
 "Assets/RCK 2.3/Skidmarks/WheelSkidmarks.cs"
 "Assets/Script/Key.cs"
 "Assets/Script/PlayerInventory.cs"
+"Assets/Script/StartButtonHandler.cs"
 "Assets/Unity-Speedometer-master/Speedometer.cs"
 -langversion:9.0
 
