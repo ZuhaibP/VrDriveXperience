@@ -1,18 +1,24 @@
+using BNG;
 using UnityEngine;
-using UnityEngine.InputSystem.XR;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class StartButtonHandler : MonoBehaviour
 {
-    public XRController xrController; // Reference to the XR Controller component
+    public BNGPlayerController playerController; // Reference to the XR Controller component
     public Canvas mainMenuCanvas; // Reference to the Main Menu canvas
+    private CharacterController characterController; // Reference to the Character Controller component
+
+    private void Start()
+    {
+        // Get the Character Controller component from the PlayerController
+        characterController = playerController.GetComponent<CharacterController>();
+    }
 
     public void OnStartButtonClick()
     {
         // Disable the Main Menu canvas
         mainMenuCanvas.gameObject.SetActive(false);
 
-        // Enable the XR Controller component on the XR Rig
-        xrController.enabled = true;
+        // Enable the Character Controller component on the XR Rig
+        characterController.enabled = true;
     }
 }

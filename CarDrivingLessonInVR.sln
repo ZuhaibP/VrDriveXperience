@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BNGHandPoseID", "BNGHandPoseID.csproj", "{F7420977-6A35-C654-00A2-A23B1D1B2A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Interaction.Toolkit.Samples.StarterAssets", "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj", "{211CB4F3-3446-DA72-7705-EFFAC04F9F81}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.XR.Management.Samples", "Unity.XR.Management.Samples.csproj", "{D6B1005D-D585-48C7-800A-317ACD982EC2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6563EC10-05CD-A720-07BF-8102063B4E9A}"
@@ -25,6 +27,10 @@ Global
 		{F7420977-6A35-C654-00A2-A23B1D1B2A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7420977-6A35-C654-00A2-A23B1D1B2A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7420977-6A35-C654-00A2-A23B1D1B2A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211CB4F3-3446-DA72-7705-EFFAC04F9F81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211CB4F3-3446-DA72-7705-EFFAC04F9F81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211CB4F3-3446-DA72-7705-EFFAC04F9F81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211CB4F3-3446-DA72-7705-EFFAC04F9F81}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6B1005D-D585-48C7-800A-317ACD982EC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6B1005D-D585-48C7-800A-317ACD982EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B1005D-D585-48C7-800A-317ACD982EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
