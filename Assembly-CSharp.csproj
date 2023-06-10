@@ -152,6 +152,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\JoystickControl.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs" />
+    <Compile Include="Assets\Script\GearInstruction.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Flashlight.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Explosive.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\HandModelSwitcher.cs" />
@@ -231,7 +232,8 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
-    <Compile Include="Assets\Script\GearInstruction.cs" />
+    <Compile Include="Assets\Script\SteeringInstruction.cs" />
+    <Compile Include="Assets\Script\AccelerationInstruction.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
