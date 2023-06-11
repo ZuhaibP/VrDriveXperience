@@ -76,7 +76,7 @@
     <Compile Include="Assets\Script\ExitButtonHandler.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserPointer.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\VelocityTracker.cs" />
-    <Compile Include="Assets\Script\InstructionStart.cs" />
+    <Compile Include="Assets\Script\InstructionStartMenu.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\UITrigger.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\Damageable.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LiquidWobble.cs" />
@@ -193,6 +193,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerJoint.cs" />
     <Compile Include="Assets\Script\AccelerationInstruction.cs" />
+    <Compile Include="Assets\Script\OpenMenuButton.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\BNGPlayerController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRTextInput.cs" />
@@ -234,7 +235,12 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
-    <Compile Include="Assets\Script\OpenMenuButton.cs" />
+    <Compile Include="Assets\Script\ResumeButton.cs" />
+    <Compile Include="Assets\Script\RestartButton.cs" />
+    <Compile Include="Assets\Script\SaveButton.cs" />
+    <Compile Include="Assets\Script\PauseInstruction.cs" />
+    <Compile Include="Assets\Script\ClosePauseInstructionButton.cs" />
+    <Compile Include="Assets\Script\MainMenuInstructionButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />

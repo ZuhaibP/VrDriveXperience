@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InstructionStart : MonoBehaviour
+public class InstructionStartMenu : MonoBehaviour
 {
     public Button startButton; // Reference to the start button
     public RectTransform instructionPanel; // Reference to the instruction panel RectTransform
