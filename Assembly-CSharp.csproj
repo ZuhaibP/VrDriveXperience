@@ -144,13 +144,16 @@
     <Compile Include="Assets\BNG Framework\Scripts\Utility\FixNonUniformScale.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ExtensionMethods.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\PoliceLights.cs" />
+    <Compile Include="Assets\Script\MainMenuInstructionButton.cs" />
     <Compile Include="Assets\RCK 2.3\Skidmarks\Skidmarks Essentials\Skidmarks.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\PlayerScaler.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SmoothLocomotion.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\CalibratePlayerHeight.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Button.cs" />
+    <Compile Include="Assets\Script\ClosePauseInstructionButton.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\BulletInsert.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\JoystickControl.cs" />
+    <Compile Include="Assets\Script\RestartButton.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs" />
     <Compile Include="Assets\Script\GearInstruction.cs" />
@@ -159,6 +162,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\HandModelSwitcher.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\DrawerSound.cs" />
+    <Compile Include="Assets\Script\SaveButton.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\VRUtils.cs" />
     <Compile Include="Assets\Script\CarStartButtonHandler.cs" />
     <Compile Include="Assets\RCK 2.3\Skidmarks\WheelSkidmarks.cs" />
@@ -203,6 +207,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SavePoseBinding.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs" />
+    <Compile Include="Assets\Script\PauseInstruction.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\AmmoDispenser.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlight.cs" />
@@ -234,13 +239,8 @@
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoser.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
-    <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
     <Compile Include="Assets\Script\ResumeButton.cs" />
-    <Compile Include="Assets\Script\RestartButton.cs" />
-    <Compile Include="Assets\Script\SaveButton.cs" />
-    <Compile Include="Assets\Script\PauseInstruction.cs" />
-    <Compile Include="Assets\Script\ClosePauseInstructionButton.cs" />
-    <Compile Include="Assets\Script\MainMenuInstructionButton.cs" />
+    <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />

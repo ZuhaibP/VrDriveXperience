@@ -7,6 +7,7 @@ public class PlayerInventory : MonoBehaviour
 {
     private int keyCount;
     public TextMeshProUGUI keyCountText;
+    public GameObject wallWithCollider; // Reference to the GameObject with the Box Collider
 
     private void Start()
     {
@@ -18,10 +19,20 @@ public class PlayerInventory : MonoBehaviour
     {
         keyCount++;
         UpdateKeyCountText();
+
+        if (keyCount >= 10)
+        {
+            DisableWall();
+        }
     }
 
     private void UpdateKeyCountText()
     {
         keyCountText.text = "Keys: " + keyCount.ToString();
+    }
+
+    private void DisableWall()
+    {
+        Destroy(wallWithCollider);
     }
 }
