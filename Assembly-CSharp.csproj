@@ -136,6 +136,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\DetachableLimb.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SampleHandController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabPointTrigger.cs" />
+    <Compile Include="Assets\Script\SteeringInstruction.cs" />
     <Compile Include="Assets\Unity-Speedometer-master\Speedometer.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\MovingPlatform.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BowArm.cs" />
@@ -191,6 +192,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Core\Grabbable.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerJoint.cs" />
+    <Compile Include="Assets\Script\AccelerationInstruction.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\BNGPlayerController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRTextInput.cs" />
@@ -232,8 +234,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
-    <Compile Include="Assets\Script\SteeringInstruction.cs" />
-    <Compile Include="Assets\Script\AccelerationInstruction.cs" />
+    <Compile Include="Assets\Script\OpenMenuButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
