@@ -11,6 +11,8 @@ TagManager:
   - FingerCollider
   - Finger
   - Hand
+  - Car
+  - TrafficCone
   layers:
   - Default
   - TransparentFX

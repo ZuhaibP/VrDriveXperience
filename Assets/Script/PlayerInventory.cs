@@ -7,7 +7,8 @@ public class PlayerInventory : MonoBehaviour
 {
     private int keyCount;
     public TextMeshProUGUI keyCountText;
-    public GameObject wallWithCollider; // Reference to the GameObject with the Box Collider
+    public GameObject level1WallWithCollider; // Reference to the GameObject with the Box Collider for level 1 wall
+    public GameObject level2WallWithCollider; // Reference to the GameObject with the Box Collider for level 2 wall
 
     private void Start()
     {
@@ -20,9 +21,13 @@ public class PlayerInventory : MonoBehaviour
         keyCount++;
         UpdateKeyCountText();
 
-        if (keyCount >= 10)
+        if (keyCount >= 10 && keyCount < 25)
         {
-            DisableWall();
+            DisableLevel1Wall();
+        }
+        else if (keyCount >= 25)
+        {
+            DisableLevel2Wall();
         }
     }
 
@@ -31,8 +36,22 @@ public class PlayerInventory : MonoBehaviour
         keyCountText.text = "Keys: " + keyCount.ToString();
     }
 
-    private void DisableWall()
+    private void DisableLevel1Wall()
     {
-        Destroy(wallWithCollider);
+        Destroy(level1WallWithCollider);
+    }
+
+    private void DisableLevel2Wall()
+    {
+        Destroy(level2WallWithCollider);
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.CompareTag("TrafficCone"))
+        {
+            keyCount--;
+            UpdateKeyCountText();
+        }
     }
 }

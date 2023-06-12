@@ -252,6 +252,7 @@
     <None Include="Assets\RCK 2.3\Shaders\ReflectionBlurFresnel.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
+    <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
     <None Include="Assets\BNG Framework\Textures\particleTextures.txt" />
     <None Include="Assets\BNG Framework\Fonts\license.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
