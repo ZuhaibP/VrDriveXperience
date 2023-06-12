@@ -241,6 +241,7 @@
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\Script\ResumeButton.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
+    <Compile Include="Assets\Script\Level 1\TrafficCone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />

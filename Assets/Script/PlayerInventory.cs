@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -48,7 +46,7 @@ public class PlayerInventory : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.CompareTag("TrafficCone"))
+        if (collision.gameObject.CompareTag("Car") && collision.collider.CompareTag("TrafficCone"))
         {
             keyCount--;
             UpdateKeyCountText();
