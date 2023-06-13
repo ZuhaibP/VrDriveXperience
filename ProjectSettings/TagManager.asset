@@ -13,6 +13,8 @@ TagManager:
   - Hand
   - Car
   - TrafficCone
+  - AnimalCollider
+  - BoxCollider
   layers:
   - Default
   - TransparentFX

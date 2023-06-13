@@ -97,6 +97,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRKeyboard.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs" />
+    <Compile Include="Assets\Script\Level 1\TrafficCone.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\InputBridge.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ReturnToSnapZone.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\Climbable.cs" />
@@ -127,6 +128,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs" />
     <Compile Include="Assets\Script\Key.cs" />
+    <Compile Include="Assets\Script\Level 1\MooseController.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\FollowTransform.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\VREmulator.cs" />
@@ -241,7 +243,6 @@
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\Script\ResumeButton.cs" />
     <Compile Include="Assets\RCK 2.3\Scripts\VehicleCamera.cs" />
-    <Compile Include="Assets\Script\Level 1\TrafficCone.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
