@@ -18747,6 +18747,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   targetPosition: {fileID: 1233841814}
+  startPosition: {fileID: 1423318756}
+  mooseActivator: {fileID: 1547916045}
 --- !u!1 &626110222
 GameObject:
   m_ObjectHideFlags: 0
@@ -21666,6 +21668,10 @@ PrefabInstance:
     - target: {fileID: 148086, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
       propertyPath: m_Name
       value: Animal_Moose_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 148086, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
+      propertyPath: m_TagString
+      value: Moose
       objectReference: {fileID: 0}
     - target: {fileID: 431108, guid: 72d1e1ec46e639c47a81658b0d9e230e, type: 3}
       propertyPath: m_RootOrder
@@ -31381,7 +31387,7 @@ GameObject:
   - component: {fileID: 1423318758}
   - component: {fileID: 1423318757}
   m_Layer: 0
-  m_Name: mooseCollider (1)
+  m_Name: startPosition
   m_TagString: BoxCollider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31395,7 +31401,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423318755}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -38, y: 1.51, z: -7}
+  m_LocalPosition: {x: -41.66, y: 1.51, z: -7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44651,7 +44657,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547916044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.640015, y: 1.51, z: -27.400024}
+  m_LocalPosition: {x: -14.640015, y: 1.51, z: -35.6}
   m_LocalScale: {x: 59.173817, y: 10.722, z: 0.103810005}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49892,7 +49898,7 @@ GameObject:
   - component: {fileID: 2083556786}
   m_Layer: 0
   m_Name: Collision (1)
-  m_TagString: PlayerInventory
+  m_TagString: Car
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

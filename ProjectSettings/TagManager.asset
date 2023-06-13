@@ -15,6 +15,7 @@ TagManager:
   - TrafficCone
   - AnimalCollider
   - BoxCollider
+  - Moose
   layers:
   - Default
   - TransparentFX
