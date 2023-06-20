@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638219147754326607
-    m_Hash: 2096442663
+      ticks: 638228311056979931
+    m_Hash: 4004765944
   m_LockFileStatus:
     m_FilePath: D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638219147754398027
-    m_Hash: 846428374
+      ticks: 638228311056995023
+    m_Hash: 529520375
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -323,6 +323,7 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
+    - 3.0.24
     compatible:
     - 3.0.16
     - 3.0.17
@@ -330,7 +331,8 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     - 3.0.22
-    verified: 3.0.22
+    - 3.0.24
+    verified: 3.0.24
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -563,6 +565,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -576,6 +579,7 @@ m_ResolvedPackages:
     - 1.3.3
     - 1.3.4
     - 1.3.5
+    - 1.3.7
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -1316,11 +1320,13 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.3.1
     - 4.3.3
+    - 4.4.0
     compatible:
     - 4.2.0
     - 4.2.1
     - 4.3.1
     - 4.3.3
+    - 4.4.0
     verified: 4.2.1
   dependencies:
   - name: com.unity.modules.subsystems
@@ -1570,11 +1576,13 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     - 1.8.0
+    - 1.8.1
     compatible:
     - 1.5.3
     - 1.6.0
     - 1.7.0
     - 1.8.0
+    - 1.8.1
     verified: 1.5.3
   dependencies:
   - name: com.unity.xr.management

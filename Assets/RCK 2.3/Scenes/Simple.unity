@@ -16302,7 +16302,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &388288122
 Transform:
   m_ObjectHideFlags: 0
@@ -20047,6 +20047,10 @@ PrefabInstance:
     - target: {fileID: 180412, guid: a7e9891f686821e46ade0477d65446f6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 180412, guid: a7e9891f686821e46ade0477d65446f6, type: 3}
+      propertyPath: m_TagString
+      value: Street
       objectReference: {fileID: 0}
     - target: {fileID: 411454, guid: a7e9891f686821e46ade0477d65446f6, type: 3}
       propertyPath: m_RootOrder
@@ -52983,7 +52987,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2101716092
 Transform:
   m_ObjectHideFlags: 0
@@ -56654,12 +56658,12 @@ MonoBehaviour:
     - tag: Street
       grounded: 1
       brakeSound: {fileID: 8300000, guid: 334cc9dcd313b2f48bda705e3eefc2df, type: 3}
-      groundSound: {fileID: 8300000, guid: 7afc546e5cc350d48bd7833a1e15f56e, type: 3}
+      groundSound: {fileID: 0}
       brakeColor: {r: 0.6727941, g: 0.72763693, b: 0.75, a: 0.78431374}
     - tag: Grass
       grounded: 1
       brakeSound: {fileID: 8300000, guid: 48557c3f3613c2e4babd9ef286d0b659, type: 3}
-      groundSound: {fileID: 8300000, guid: e74738166dc243747b9979b0cd3b6875, type: 3}
+      groundSound: {fileID: 0}
       brakeColor: {r: 0.8088235, g: 0.6295862, b: 0.24383649, a: 0.78431374}
     cameraSwitchView: []
     springs: 25000
