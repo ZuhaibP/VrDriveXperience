@@ -7,6 +7,7 @@ public class PlayerInventory : MonoBehaviour
     public TextMeshProUGUI keyCountText;
     public GameObject level1WallWithCollider; // Reference to the GameObject with the Box Collider for level 1 wall
     public GameObject level2WallWithCollider; // Reference to the GameObject with the Box Collider for level 2 wall
+    public GameObject level3WallWithCollider; // Reference to the GameObject with the Box Collider for level 3 wall
 
     private void Start()
     {
@@ -23,9 +24,13 @@ public class PlayerInventory : MonoBehaviour
         {
             DisableLevel1Wall();
         }
-        else if (keyCount >= 25)
+        else if (keyCount >= 25 && keyCount < 35)
         {
             DisableLevel2Wall();
+        }
+        else if (keyCount >= 35)
+        {
+            DisableLevel3Wall();
         }
     }
 
@@ -42,6 +47,11 @@ public class PlayerInventory : MonoBehaviour
     private void DisableLevel2Wall()
     {
         Destroy(level2WallWithCollider);
+    }
+
+    private void DisableLevel3Wall()
+    {
+        Destroy(level3WallWithCollider);
     }
 
     private void OnCollisionEnter(Collision collision)

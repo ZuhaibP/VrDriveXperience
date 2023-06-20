@@ -553,6 +553,7 @@
 "Assets/Script/GearInstruction.cs"
 "Assets/Script/InstructionStartMenu.cs"
 "Assets/Script/Key.cs"
+"Assets/Script/Level 1/AnimalController.cs"
 "Assets/Script/Level 1/MooseController.cs"
 "Assets/Script/Level 1/TrafficCone.cs"
 "Assets/Script/MainMenuButtonHandler.cs"
