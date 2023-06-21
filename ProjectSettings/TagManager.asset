@@ -16,6 +16,7 @@ TagManager:
   - AnimalCollider
   - BoxCollider
   - Moose
+  - Animal
   layers:
   - Default
   - TransparentFX
