@@ -59,8 +59,8 @@ If you encounter any issues or have suggestions, open an issue on the GitHub rep
 
 For inquiries or collaboration opportunities, contact the developer:
 
-- [Email](zuhaib.paracha@hyperisland.se)
-- [LinkedIn](www.linkedin.com/in/zuhaibp/)
-- [Portfolio](www.zuhaib.se)
+- [Email](mailto:zuhaib.paracha@hyperisland.se)
+- [LinkedIn](https://www.linkedin.com/in/zuhaibp/)
+- [Portfolio](https://www.zuhaib.se/)
 
 Dive into VR DriveXperience and take your driving skills to new heights!
