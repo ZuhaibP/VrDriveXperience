@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638228311056979931
+      ticks: 638369207575871887
     m_Hash: 4004765944
   m_LockFileStatus:
     m_FilePath: D:/Hyper Island/Projects/Unity/DrivingLessonGame/CarDrivingLessonInVR/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638228311056995023
+      ticks: 638369207575883639
     m_Hash: 529520375
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -109,9 +109,12 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
+    - 2.2.0
     compatible:
     - 1.17.7
     - 2.0.0-preview.6
@@ -126,9 +129,12 @@ m_ResolvedPackages:
     - 2.0.3
     - 2.0.4
     - 2.0.5
+    - 2.0.7
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
+    - 2.1.0
+    - 2.2.0
     verified: 1.17.7
   dependencies:
   - name: com.unity.services.core
@@ -324,6 +330,8 @@ m_ResolvedPackages:
     - 3.0.21
     - 3.0.22
     - 3.0.24
+    - 3.0.25
+    - 3.0.26
     compatible:
     - 3.0.16
     - 3.0.17
@@ -332,7 +340,9 @@ m_ResolvedPackages:
     - 3.0.21
     - 3.0.22
     - 3.0.24
-    verified: 3.0.24
+    - 3.0.25
+    - 3.0.26
+    verified: 3.0.26
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -404,11 +414,17 @@ m_ResolvedPackages:
     - 2.0.16
     - 2.0.17
     - 2.0.18
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
     compatible:
     - 2.0.16
     - 2.0.17
     - 2.0.18
-    verified: 2.0.18
+    - 2.0.20
+    - 2.0.21
+    - 2.0.22
+    verified: 2.0.22
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -566,6 +582,10 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -580,6 +600,10 @@ m_ResolvedPackages:
     - 1.3.4
     - 1.3.5
     - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0
+    - 1.4.1
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -746,6 +770,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -754,6 +780,8 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
+    - 3.2.0-pre.5
+    - 3.2.0-pre.6
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -889,10 +917,15 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
     compatible:
     - 1.6.4
     - 1.6.5
@@ -903,10 +936,15 @@ m_ResolvedPackages:
     - 1.7.2
     - 1.7.3
     - 1.7.4
+    - 1.7.5
+    - 1.7.6
     - 1.8.0
     - 1.8.1
     - 1.8.2
     - 1.8.3
+    - 1.8.4
+    - 1.8.5
+    - 1.8.6
     verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
@@ -978,6 +1016,7 @@ m_ResolvedPackages:
     all:
     - 1.0.0
     - 3.0.0-exp.1
+    - 3.0.0-exp.3
     compatible:
     - 1.0.0
     verified: 1.0.0
@@ -1065,9 +1104,13 @@ m_ResolvedPackages:
     - 1.7.8
     - 1.8.0-pre.1
     - 1.8.0
+    - 1.9.0
+    - 1.9.1
     compatible:
     - 1.7.8
     - 1.8.0
+    - 1.9.0
+    - 1.9.1
     verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
@@ -1161,6 +1204,12 @@ m_ResolvedPackages:
     - 2.3.2
     - 2.4.0-pre.1
     - 2.4.0-pre.2
+    - 2.4.0
+    - 2.4.1
+    - 2.4.3
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
     compatible:
     - 2.0.4
     - 2.1.0-pre.1
@@ -1172,6 +1221,12 @@ m_ResolvedPackages:
     - 2.3.2
     - 2.4.0-pre.1
     - 2.4.0-pre.2
+    - 2.4.0
+    - 2.4.1
+    - 2.4.3
+    - 2.5.0
+    - 2.5.1
+    - 2.5.2
     verified: 2.0.4
   dependencies:
   - name: com.unity.inputsystem
@@ -1477,6 +1532,9 @@ m_ResolvedPackages:
     - 3.2.3
     - 3.3.0
     - 4.0.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0-exp-env-depth.1
     compatible:
     - 3.2.2
     - 3.2.3-pre.1
@@ -1577,12 +1635,16 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.8.0
     - 1.8.1
+    - 1.8.2
+    - 1.9.1
     compatible:
     - 1.5.3
     - 1.6.0
     - 1.7.0
     - 1.8.0
     - 1.8.1
+    - 1.8.2
+    - 1.9.1
     verified: 1.5.3
   dependencies:
   - name: com.unity.xr.management
@@ -3573,11 +3635,19 @@ m_ResolvedPackages:
     - 1.5.0
     - 1.5.1
     - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
     compatible:
     - 1.4.4
     - 1.5.0
     - 1.5.1
     - 1.6.1
+    - 1.6.3
+    - 1.7.0
+    - 1.8.0-pre.1
+    - 1.8.0-pre.2
     verified: 1.4.4
   dependencies:
   - name: com.unity.modules.uielements
@@ -3727,8 +3797,10 @@ m_ResolvedPackages:
     - 1.2.4
     - 1.2.5
     - 1.2.6
+    - 1.3.1
     compatible:
     - 1.2.6
+    - 1.3.1
     verified: 1.2.6
   dependencies: []
   resolvedDependencies: []
@@ -3794,6 +3866,12 @@ m_ResolvedPackages:
     - 2.2.0-pre.2
     - 2.2.0
     - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
     compatible:
     - 2.0.0
     - 2.0.1
@@ -3804,6 +3882,12 @@ m_ResolvedPackages:
     - 2.2.0-pre.2
     - 2.2.0
     - 2.2.1
+    - 2.2.2
+    - 2.2.3
+    - 2.3.0-pre.1
+    - 2.4.0-exp.1
+    - 2.4.0-exp.2
+    - 2.4.0-exp.3
     verified: 2.0.1
   dependencies:
   - name: com.unity.modules.xr
@@ -3875,10 +3959,14 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     compatible:
     - 1.0.6
     - 2.0.2
     - 2.0.3
+    - 2.0.4
+    - 2.0.5
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -4179,6 +4267,9 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.0
     - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
     compatible:
     - 1.6.0
     - 1.7.0
@@ -4187,6 +4278,9 @@ m_ResolvedPackages:
     - 1.8.2
     - 1.9.0
     - 1.10.1
+    - 1.11.0
+    - 1.12.0
+    - 1.12.1
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
